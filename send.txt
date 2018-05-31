@@ -1,0 +1,13 @@
+GET http://www.msftconnecttest.com/connecttest.txt HTTP/1.1
+Connection: Close
+User-Agent: Microsoft NCSI
+Host: www.msftconnecttest.com
+
+CONNECT activity.windows.com:443 HTTP/1.1
+Host: activity.windows.com:443
+
+GET http://www.msftconnecttest.com/connecttest.txt HTTP/1.1
+Connection: Close
+User-Agent: Microsoft NCSI
+Host: www.msftconnecttest.com
+
